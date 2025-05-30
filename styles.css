@@ -1,0 +1,53 @@
+:root {
+    --bg: #1a1b26;
+    --fg: #bda9d6;
+    --accent: #bd7af7;
+    --error: #f7768e;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Fira Code', monospace;
+    line-height: 1.5;
+    margin: 0;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.input-line {
+    display: flex;
+    position: sticky;
+}
+
+.prompt {
+    color: var(--accent);
+    margin-right: 0.5rem;
+    white-space: nowrap;
+}
+
+#command-input {
+    background: transparent;
+    border: none;
+    color: var(--fg);
+    font-family: inherit;
+    outline: none;
+    caret-color: var(--accent);
+}
+
+.error {
+    color: var(--error);
+}
+
+.neofetch-art {
+    color: var(--accent);
+    line-height: 1.2;
+}
+
+.matrix-digit {
+    position: absolute;
+    color: #bd7af7 ;
+    font-size: 16px;
+    opacity: 0.8;
+    z-index: -1;
+}
